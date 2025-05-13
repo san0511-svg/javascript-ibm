@@ -1,0 +1,10 @@
+{
+  "articles": [
+    {
+      "title": "Innovación Médica 2025",
+      "description": "Nuevas tecnologías revolucionan los diagnósticos precoces.",
+      "ways_to_achieve": ["Uso de IA", "Pruebas genéticas avanzadas", "Diagnósticos móviles"],
+      "benefits": ["Detección temprana", "Mayor precisión", "Acceso global"]
+    }
+  ]
+}
