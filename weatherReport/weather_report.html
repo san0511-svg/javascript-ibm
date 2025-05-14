@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Report</title>
+</head>
+<body>
+  <h1>Weather Report</h1>
+
+  <!-- FORMULARIO PARA CIUDAD -->
+  <form id="weatherForm">
+    <label for="city">Ciudad:</label>
+    <input type="text" id="city" name="city">
+    <button type="submit">Clima por ciudad</button>
+  </form>
+
+  <!-- FORMULARIO PARA COORDENADAS -->
+  <form id="coordsForm">
+    <label for="lat">Latitud:</label>
+    <input type="text" id="lat" name="lat">
+    <label for="lon">Longitud:</label>
+    <input type="text" id="lon" name="lon">
+    <button type="submit">Clima por coordenadas</button>
+  </form>
+
+  <!-- Resultado -->
+  <div id="weatherInfo"></div>
+
+  <!-- JavaScript -->
+  <script src="./weather_report.js"></script>
+</body>
+</html>
